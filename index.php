@@ -1,6 +1,6 @@
 <?php
-    // Definim el número base de la taula
-    $numero = 7; // Pots canviar aquest valor per provar
+   
+    $numero = 7; 
 ?>
 <!DOCTYPE html>
 <html lang="ca">
@@ -41,13 +41,13 @@
 </head>
 <body>
 <?php
-    // Comprovem que el número és vàlid (entre 1 i 12)
+  
     if ($numero < 1 || $numero > 12) {
         echo "<div class='error'>Error: el número ha d’estar entre 1 i 12.</div>";
     } else {
         echo "<table>";
         echo "<tr><th colspan='3'>Taula del $numero</th></tr>";
-        // Generem les files del 1 al 10
+       
         for ($i = 1; $i <= 10; $i++) {
             $classe = ($i % 2 == 0) ? "parell" : "senar";
             $resultat = $numero * $i;
