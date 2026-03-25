@@ -1,6 +1,6 @@
 <?php
    
-    $numero = 7; 
+    $numero = 10; 
 ?>
 
 <!DOCTYPE html>
