@@ -1,3 +1,8 @@
+<?php
+   
+    $numero = 7; 
+?>
+
 <!DOCTYPE html>
 <html lang="ca">
 <head>
@@ -36,10 +41,7 @@
     </style>
 </head>
 <body>
-    <?php
-   
-    $numero = 7; 
-?>
+    
 <?php
   
     if ($numero < 1 || $numero > 12) {
