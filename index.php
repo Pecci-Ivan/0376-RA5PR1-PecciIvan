@@ -1,6 +1,7 @@
 <?php
 $numero = 10;
 ?>
+
 <!DOCTYPE html>
 <html lang="ca">
 <head>
